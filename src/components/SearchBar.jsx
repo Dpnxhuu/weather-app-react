@@ -20,6 +20,7 @@ export default function SearchBar() {
           type="search"
           placeholder="Search city or place…"
           onKeyDown={handleSearch}
+          maxLength={30}
           className="w-full cursor-default rounded-2xl border border-black/10 bg-white/30 py-3.5 pl-12 pr-4 text-sm font-medium text-slate-800 shadow-lg shadow-orange-900/5 outline-none ring-orange-400/40 placeholder:text-slate-400 backdrop-blur-xl focus-visible:ring-2 dark:border-white/10 dark:bg-white/5 dark:text-white dark:placeholder:text-white/25 dark:shadow-black/20"
         />
       </div>
