@@ -1,0 +1,28 @@
+import { HiMagnifyingGlass } from 'react-icons/hi2'
+import {useContext} from 'react'
+import {myContext} from '../context/ApiData'
+
+export default function SearchBar() {
+
+  const {handleSearch} = useContext(myContext);
+
+return (
+  <div className="mb-6">
+    <label className="sr-only" htmlFor="city-search">
+      Search city
+    </label>
+    <div className="group relative">
+      <HiMagnifyingGlass
+        aria-hidden
+        className="pointer-events-none absolute left-4 top-1/2 size-5 -translate-y-1/2 text-slate-400 transition-colors group-focus-within:text-sky-600 dark:group-focus-within:text-sky-400 z-10"
+      />
+      <input
+        id="city-search"
+        type="search"
+        placeholder="Search city or place…"
+        onKeyDown={handleSearch}
+        className="w-full cursor-default rounded-2xl border border-white/60 bg-white/70 py-3.5 pl-12 pr-4 text-sm font-medium text-slate-800 shadow-lg shadow-sky-900/5 outline-none ring-sky-400/40 placeholder:text-slate-400 backdrop-blur-xl focus-visible:ring-2 dark:border-white/10 dark:bg-slate-900/60 dark:text-slate-100 dark:placeholder:text-slate-500 dark:shadow-black/20"
+      />
+    </div>
+  </div>
+)};
