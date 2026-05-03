@@ -2,6 +2,10 @@
 
 A responsive weather dashboard built with **React** and **Tailwind CSS**. Search any city to see current conditions, a short description, key metrics (feels like, humidity, wind), and a **4-day forecast** summary driven by the OpenWeatherMap API.
 
+## Live Demo
+
+[aajkamosam.vercel.app](https://aajkamosam.vercel.app/)
+
 ## Features
 
 - **City search** — Press Enter in the search bar to fetch weather for the typed location.
