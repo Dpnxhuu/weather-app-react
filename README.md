@@ -4,7 +4,7 @@ A responsive weather dashboard built with **React** and **Tailwind CSS**. Search
 
 ## Live Demo
 
-[aajkamosam.vercel.app](https://aajkamosam.vercel.app/)
+[skycastbydpnshuu.vercel.app](https://skycastbydpnshuu.vercel.app/)
 
 ## Features
 
